@@ -1,0 +1,27 @@
+version: '3'
+
+volumes:
+  db_data: {}
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      DJANGO_DEBUG: "False"
+      DJANGO_ALLOWED_HOSTS: "mydeformator.ru"
+    command: /start-uwsgi.sh
+
+  nginx:
+    build:
+      context: ./docker/nginx/
+      dockerfile: Dockerfile
+    volumes:
+      - ./wsgi/static:/app/wsgi/static
+    links:
+      - app
+    ports:
+- 80:80

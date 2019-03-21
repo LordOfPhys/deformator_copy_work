@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+	   <meta charset="utf-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <title>Деформатор</title>
+        
+        <link rel="shortcut icon" href="favicon.ico">
+	   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	
+	   <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/simple-line-icons.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/salvattore.css' %}">
+	   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+	   <script src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
+	</head>
+    
+	<body>
+		
+	<div id="tori-offcanvass">
+		<ul>
+			<li><a href="" data-nav-section="aboutUs">Что мы изготавливаем?</a></li>
+			<li><a href="#" data-nav-section="calculator">Калькулятор</a></li>
+			<li><a href="#" data-nav-section="steel">Какую сталь используем?</a></li>
+			<li><a href="#" data-nav-section="products">Наше производство</a></li>
+			<li><a href="#" data-nav-section="colored">Как красим?</a></li>
+		</ul>
+		<h3 class="tori-lead">Свяжитесь с нами</h3>
+		<p class="tori-social-icons">
+			<a href="https://www.instagram.com/holodnay_kovka_podolsk/"><i class="icon-instagram"></i></a>
+		</p>
+	</div>
+	
+	<div id="tori-menu" class="navbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#" class="js-tori-nav-toggle tori-nav-toggle" data-toggle="collapse" data-target="#tori-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					<a href="../index" class="navbar-brand"><span>Главная</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="tori-page">
+		<div id="tori-wrap">
+			<header id="tori-hero" data-section="home" role="banner" >
+				<div class="tori-overlay"></div>
+				<div class="tori-intro">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 tori-text">
+								<h2 class="to-animate intro-animate-1">Деформатор</h2>
+								<p class="to-animate intro-animate-2">Студия художественной ковки</p>
+							</div>
+							<div class="col-md-6 text-right tori-intro-img to-animate intro-animate-4">
+								<img src="{% static 'images/logotip.png' %}">
+							</div>
+						</div>
+					</div>						
+				</div>
+                <div class = 'uzor'>
+                    <img src = "{% static 'images/UZOR.png' %}">
+                </div>
+			</header>
+			<!-- END .header -->
+			
+			<div id="tori-main">
+				<div id="tori-features" data-section="aboutUs">
+
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 tori-section-heading text-center">
+								<h2 class="tori-lead to-animate">Что мы изготавливаем?</h2>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div class="tori-feature to-animate">
+									<img src="{% static 'images/perila-02.png' %}">
+									<h3 class="tori-feature-lead">Перилы и лестницы</h3>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/zabory_i_kalitki-03.png' %}">
+									<h3 class="tori-feature-lead">Заборы и калитки</h3>
+								</div>
+							</div>
+							<div class="clearfix visible-sm-block"></div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/navesy_i_kozyrki-04.png' %}">
+									<h3 class="tori-feature-lead">Козырьки и навесы</h3>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/reshetki_na_okna-01.png' %}">
+									<h3 class="tori-feature-lead">Решетки и окна</h3>
+								</div>
+							</div>
+			        	</div>
+                        <div class = 'row'>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/balkon-07.png' %}">
+									<h3 class="tori-feature-lead">Балконы</h3>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/besedki_i_mangaly-06.png' %}">
+									<h3 class="tori-feature-lead">Беседки и мангалы</h3>
+								</div>
+							</div>
+							<div class="clearfix visible-sm-block"></div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/most-08.png' %}">
+									<h3 class="tori-feature-lead">Мостики и крыльца</h3>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<div href="#" class="tori-feature to-animate">
+									<img src="{% static 'images/ograzhdenia_dlya_gazona-05.png' %}">
+									<h3 class="tori-feature-lead">Газонные ограждения</h3>
+								</div>
+							</div>
+                        </div>
+			       </div>
+			       
+
+			    </div>
+				
+
+
+			    <div id="tori-features-2" data-section="calculator">
+					<div class="tori-features-2-content">
+					    <div class="container">
+					    	<div class="row">
+					    		<div class="col-md-8 col-md-offset-2 tori-section-heading text-center">
+									<h2 class="tori-lead to-animate">Калькулятор</h2>
+									<p class="tori-sub to-animate">Рассчитайте стоимость вашего изделия</p>
+                                    <div class = 't-calc-form'>
+                                        <form method="post">
+                                            <h4>Тип изделия</h4>
+                                            <div class = 't-select'> 
+                                                <input type="radio" id="btn1-1" name="toggle">
+                                                <label for="btn1-1">Ворота</label>
+                                                <input type="radio" id="btn1-2" name="toggle">
+                                                <label for="btn1-2">Забор</label>
+                                                <input type="radio" id="btn1-3" name="toggle">
+                                                <label for="btn1-3">Перила и наружные ограждения</label>
+                                                <input type="radio" id="btn1-4" name="toggle">
+                                                <label for="btn1-4">Решетки</label>
+                                                <input type="radio" id="btn1-5" name="toggle">
+                                                <label for="btn1-5">Навесы</label>
+                                            </div>
+                                            <h4>Сложность изделия</h4>
+                                            <div class = 't-complex'>
+                                                <input type="radio" id="btn2-1" name = 'toggle1'>
+                                                <label for="btn2-1"><img src = "{% static 'images/simple.jpg' %}" width="90%"></label>
+                                                <input type="radio" id="btn2-2" name = 'toggle1'>
+                                                <label for="btn2-2"><img src = "{% static 'images/mid.jpg' %}" width="90%" width="90%"></label>
+                                                <input type="radio" id="btn2-3" name = 'toggle1'>
+                                                <label for="btn2-3"><img src = "{% static 'images/complex.jpg' %}" width="90%" width="90%"></label>
+                                            </div>
+                                            <div class = 't-size'>
+                                                <h4>Размеры</h4>
+                                                <input type = 'text' value = 'Ширина (м)' id = 'sh'>
+                                                <input type = 'text' value = 'Высота (м)' id = 'vh'>
+                                            </div>
+                                            <div class = 't-submit' id = 'test'>
+                                                <h2>Рассчитать стоимость</h2>
+                                            </div>
+                                        </form>
+                                    </div>
+								</div>
+					    	</div>
+					    </div>
+					</div>	
+			    </div>
+
+
+			    <div id="tori-testimony" data-section="steel">
+				    <div class="container">
+				    	<div class="row animate-box">
+
+							<div class="owl-carousel">
+
+								<div class="item">
+									<div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+						    			<figure class="tori-vcard"><img src="{% static 'images/steel-1.png' %}" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
+						    		</div>
+						    		<div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
+						    			<blockquote>
+                                            <p>«Сталь ГОСТ 380-71»</p>
+						    				<p>Содержаржание углерода в стали менее 0.1%</p>
+						    			</blockquote>
+						    		</div>
+						    	</div>
+
+						    	<div class="item">
+									<div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+						    			<figure class="tori-vcard"><img src="{% static 'images/steel-2.png' %}" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
+						    		</div>
+						    		<div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
+						    			<blockquote>
+						    				<p>Главным критерием, определяющим пригодна ли сталь для ковки, является содержание в ней углерода. Именно от него зависит степень ковкости и пластичности материала.</p>
+						    			</blockquote>
+						    		</div>
+						    	</div>
+
+						    	<div class="item">
+									<div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
+						    			<figure class="tori-vcard"><img src="{% static 'images/steel-3.png' %}" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
+						    		</div>
+						    		<div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
+						    			<blockquote>
+						    				<p>Мы используем сталь с низким содержанием углерода, благодаря чему металл хорошо куется и варится, а это, в свою очередь, позволяет нам обеспечить высокое качество мельчайших деталей изделия.</p>
+						    			</blockquote>
+						    		</div>
+						    	</div>
+
+
+						    </div>
+
+				    	</div>
+				    </div>
+			    </div>
+
+				<div id="tori-products" data-section="products">
+
+				    <div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 tori-section-heading text-center">
+								<h2 class="tori-lead animate-single product-animate-1">Наше производство</h2>
+								
+							</div>    
+    
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<figure>
+										<img src="{% static 'images/na_sayt/1.jpg' %}" class="img-responsive" id = 'gal'>
+									</figure>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<figure>
+										<img src="{% static 'images/na_sayt/2.jpg' %}" class="img-responsive" id = 'gal1'>
+									</figure>
+							</div>
+							<div class="clearfix visible-sm-block"></div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+								<figure>
+										<img src="{% static 'images/na_sayt/3.jpg' %}" class="img-responsive" id = 'gal2'>
+									</figure>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+									<figure>
+										<img src="{% static 'images/na_sayt/4.jpg' %}" class="img-responsive" id = 'gal3'>
+									</figure>
+							</div>
+
+							<div class="clearfix visible-sm-block"></div>
+
+							<div class="tori-spacer tori-spacer-sm"></div>
+			        	</div>
+				    </div>
+				   
+				</div>
+
+				<div id="tori-features-3" data-section="colored">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 tori-section-heading text-center">
+								<h2 class="tori-lead animate-single features3-animate-1">Как красим?</h2>
+								<p class="tori-sub animate-single features3-animate-2">На конечный вид изделия существенное влияние оказывает его покраска. Практика конкурирующих мастерских, как правило, связана с осуществлением этого этапа работы на улице или в самом цеху, где изделие изготовлено. В подобных условиях неизбежно на изделие вместе с краской попадает пыль. Это приводит к риску того, что уже через год изделие начинает ржаветь, и его приходится подкрашивать или перекрашивать.</p>
+							</div>
+
+							<div class="col-md-4 col-sm-6 text-center tori-text-wrap">
+								<div class="tori-text to-animate">
+				    				<span class="tori-icon"><img src="{% static 'images/markery.png' %}"></span>
+									<h4 class="tori-uppercase-sm">Беспыльной покрасочной камере</h4>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 text-center tori-text-wrap">
+								<div class="tori-text to-animate">
+				    				<span class="tori-icon"><img src="{% static 'images/markery.png' %}"></span>
+									<h4 class="tori-uppercase-sm">Краски «HAMMERITE»</h4>
+								</div>
+							</div>
+							
+							<div class="clearfix visible-sm-block"></div>
+
+							<div class="col-md-4 col-sm-6 text-center tori-text-wrap">
+								<div class="tori-text to-animate">
+				    				<span class="tori-icon"><img src="{% static 'images/markery.png' %}"></span>
+									<h4 class="tori-uppercase-sm">Минимум вероятности появления ржавчины</h4>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+
+		<footer id="tori-footer" style="">
+			<div class="tori-overlay"></div>
+			<div class="tori-footer-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-md-push-3">
+						</div>
+						<div class="col-md-3 col-sm-4 col-md-push-3">
+						</div>
+						<div class="col-md-3 col-sm-4 col-md-push-3">
+							<h3 class="tori-lead">Контакты</h3>
+							<ul>
+                                <li>8-977-673-43-40</li>
+                                <li>8-977-384-21-68</li>
+								<li>c.donetskov@yandex.ru</li>
+							</ul>
+						</div>
+
+						<div class="col-md-3 col-sm-12 col-md-pull-9">
+							<div class="tori-footer-logo"><a href="../index">Деформатор</a></div>
+                            <p class="tori-copyright"><small>&copy; 2019. All Rights Reserved. <br>	by <a href = 'http://www.tori-art.ru'>Tori Art </a></small></p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+        
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Рассчет</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Примерная стоимость вашего изделия
+                    <span id = 'stoimost'></span> руб.</p>
+                    <p>Позвоните или напишите нам прямо сейчас и закажите работу!</p>
+                    <h4>8-977-673-43-40</h4> 
+                    <h4>8-977-384-21-68</h4>
+                    <h4>c.donetskov@yandex.ru</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="myGalery" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body1">
+                    <div class = 'sliders'>
+                        <input type="radio" id="btn-1" name="toggle" checked>
+                        <input type="radio" id="btn-2" name="toggle">
+                        <input type="radio" id="btn-3" name="toggle">
+                        <input type="radio" id="btn-4" name="toggle">
+                        <input type="radio" id="btn-5" name="toggle">
+                        <input type="radio" id="btn-6" name="toggle">
+                        <input type="radio" id="btn-7" name="toggle">
+                        <input type="radio" id="btn-8" name="toggle">
+                        <input type="radio" id="btn-9" name="toggle">
+                        <input type="radio" id="btn-10" name="toggle">
+                        <input type="radio" id="btn-11" name="toggle">
+                        <input type="radio" id="btn-12" name="toggle">
+                        <input type="radio" id="btn-13" name="toggle">
+                        <input type="radio" id="btn-14" name="toggle">
+                        <div class = 'images' id = 'images'>
+                            <img src="{% static 'images/na_sayt/1.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/2.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/3.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/4.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/5.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/6.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/7.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/8.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/9.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/10.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/11.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/12.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/13.jpg' %}" class="img-responsive">
+                            <img src="{% static 'images/na_sayt/14.jpg' %}" class="img-responsive">
+                        </div>
+                        <div class = 'images-control'>
+                            <label for="btn-1"></label>
+                            <label for="btn-2"></label>
+                            <label for="btn-3"></label>
+                            <label for="btn-4"></label>
+                            <label for="btn-5"></label>
+                            <label for="btn-6"></label>
+                            <label for="btn-7"></label>
+                            <label for="btn-8"></label>
+                            <label for="btn-9"></label>
+                            <label for="btn-10"></label>
+                            <label for="btn-11"></label>
+                            <label for="btn-12"></label>
+                            <label for="btn-13"></label>
+                            <label for="btn-14"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<!-- Magnific Popup -->
+	<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+	<!-- Owl Carousel -->
+	<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	<!-- toCount -->
+	<script src="{% static 'js/jquery.countTo.js' %}"></script>
+	<!-- Main JS -->
+	<script src="{% static 'js/main.js' %}"></script>
+	
+	</body>
+</html>
