@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'dd=h$$b1)h*9-9)$4715-6*c-^&6eo!1cmq&_2&aq^@obyy_(*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False if os.getenv('DJANGO_DEBUG') == 'False' else True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [os.getenv('DJANGO_ALLOWED_HOSTS', '*')]
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bootstrap3',
     'app'
 ]
 
@@ -56,12 +55,12 @@ ROOT_URLCONF = 'Vika.urls'
 TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 
 STATICFILES_DIRS = [
-                    '/Users/anton/job/Vika/static',
+                    os.path.join(BASE_DIR, 'static'),
                     ]
 
 LOGIN_REDIRECT_URL = '../index'
 
-STATIC_ROOT = "/Users/anton/Vika/wsgi/static"
+STATIC_ROOT = os.path.join(BASE_DIR, 'wsgi/static')
 
 TEMPLATES = [
     {
